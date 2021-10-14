@@ -1,0 +1,12 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+    <bean id="taskId"
+          class="com.example.springscope.controller.Task"
+          init-method="init" scope="singleton" />
+    <bean id="taskId_second"
+          class="com.example.springscope.controller.Task"
+          init-method="init" scope="singleton" />
+
+</beans>
